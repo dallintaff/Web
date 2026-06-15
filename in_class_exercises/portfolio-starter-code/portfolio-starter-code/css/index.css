@@ -1,0 +1,58 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Eater&family=Honk:MORF@15&family=Noto+Sans+JP:wght@100..900&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Eater&family=Honk:MORF@15&family=Kaushan+Script&family=Noto+Sans+JP:wght@100..900&family=Pinyon+Script&display=swap');
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+
+h1 {
+    font-family: "Honk";
+    font-size: 4em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-top: 2px solid darkorchid;
+    border-bottom: 2px solid darkorchid;
+    height: 30px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:salmonHonk;
+}
+
+nav :hover {
+    font-weight: bolder;
+}
+
+img { 
+    max-width: 200px;
+    border:2px solid black;
+    border-radius: 15px;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    max-height: 1500px;
+    gap: 20px;
+}

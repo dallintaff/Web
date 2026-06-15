@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apostles Spotlight</title>
+
+<style>
+
+body{
+    background: #E8ECED;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    width: 1000px;
+    height: 800px;  
+    border-radius: 35px;
+    overflow: hidden;
+    border: 4px solid black;
+}
+
+.card img.background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.title1{
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title2{
+    position:absolute;
+    top: 175px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.leaders img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 6px solid white;
+    object-fit: cover;
+}
+.leaders img{
+    width: 95px;
+    height: 95px;
+}
+
+#FP{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#TA{
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: grid;
+    grid-template-columns: repeat(4,95px);
+    gap: 35px;
+}
+
+#oaks {
+    width: 105px;
+    height: 105px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <img class="background" src="images/christus.webp" alt="Christus">
+
+    <div class="title1">First Presidency</div>
+
+    <div id="FP" class="leaders">
+        <img src="images/eyring.webp">
+        <img id="oaks" src="images/oaks.webp">
+        <img src="images/christofferson.webp">
+    </div>
+
+    <div class="title2">Quorum of the Twelve Apostles</div>
+
+    <div id="TA" class="leaders">
+        <img src="images/uchtdorf.webp">
+        <img src="images/bednar.webp">
+        <img src="images/cook.webp">
+        <img src="images/anderson.webp">
+
+        <img src="images/rasband.webp">
+        <img src="images/stevenson.webp">
+        <img src="images/renlund.webp">
+        <img src="images/gong.webp">
+
+        <img src="images/soares.webp">
+        <img src="images/kearon.webp">
+        <img src="images/causse.webp">
+        <img src="images/gilbert.webp">
+    </div>
+
+</div>
+
+</body>
+</html>
